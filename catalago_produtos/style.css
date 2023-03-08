@@ -1,0 +1,30 @@
+.fonte-especial{
+    font-family: 'pacifico';
+    
+}
+.cor.especial{
+    color: brown !important;
+}
+.imagem-carrosel{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+.imagem-carrosel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+.card-largura{
+    max-width: 18rem;
+}
+.card-posicao-imagem  {
+    object-fit: cover;
+    height: 390px;
+}
+.img-carrosel{
+    object-fit: cover;
+    height: 300px;
+}
+.row{
+    background-color: #E6DFD9;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalago de Suplementos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src=""></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fonte-especial" href="#">Casa de Suplemetos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item text-end">
+                    <a class="nav-link  fonte-especial " aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fonte-especial" href="https://github.com/Jumendess" target="_blank">Autor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fonte-especial" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section id="carouselExampleCaptions" class="carousel slide  ">
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/foto1.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h5>Suplementos de alta qualidade para atletas e entusiastas fitness</h5>
+                <p>Descubra nossa ampla seleção de suplementos projetados para melhorar o desempenho e o bem-estar físico</p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img src="img/foto2.jpg" class="d-block w-100 imagem-carrosel-dois" alt="...">
+              <div class="carousel-caption d-none d-md-block h-50">
+                <h5>Mantenha-se saudável e em forma com nossos suplementos naturais</h5>
+                <p>Explore nossa linha de produtos naturais e orgânicos, formulados para melhorar a saúde e o condicionamento físico de forma segura e eficaz</p>
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            
+          </div>
+          </section>
+          <!--Cards-->
+          <section class="container-fluid bg-body-tertiary" id="receitas">
+            <div class="row justify-content-center ">
+              
+              <!--1°-->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3  ">
+                <img src="img/creatina.png" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Creatina</h5>
+                    <p class="card-text">A creatina é uma substância produzida naturalmente pelo corpo e também encontrada em alimentos de origem animal</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-creatina" >Saber mais</a>
+                  </div>
+            </article>
+             
+            <!--2°-->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3">
+                <img src="img/Glutamina.png" class="card-img-top " alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Glutamina</h5>
+                    <p class="card-text">A glutamina é um aminoácido não essencial que desempenha um papel importante no metabolismo de proteínas e no sistema imunológico.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-glutamina">Saber mais</a>
+                  </div>
+                </article>
+              
+              <!--3°-->
+              <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3">
+                <img src="img/whey.png" class="card-img-top  alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Whey Protein</h5>
+                    <p class="card-text">Whey protein é um suplemento alimentar em pó feito a partir do soro do leite</p><br>
+                    <a href="#" class="btn btn-primary fixed" data-bs-toggle="modal" data-bs-target="#modal-whey">Saber Mais</a>
+                  </div>
+            </article>
+            
+            <!--4°-->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3" >
+              <img src="img/massa.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Massa</h5>
+                  <p class="card-text">Massa é um alimento feito a partir da mistura de farinha de trigo com água e outros ingredientes, que pode ser cozida em diferentes formatos</p><br>
+                  <a href="#" class="btn btn-primary fixed" data-bs-toggle="modal" data-bs-target="#modal-massa">Saber mais</a>
+                </div>
+            </article>
+            
+            <!--5°-->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3" >
+              <img src="img/malto.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Malto</h5>
+                  <p class="card-text">Malto é um suplemento alimentar à base de maltodextrina, um carboidrato complexo de rápida absorção que fornece energia para o corpo durante atividades físicas de alta intensidade.</p>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-malto">Saber mais</a>
+                </div>
+            </article>
+            
+            <!--6°-->
+            <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-3" >
+              <img src="img/bca.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BCAAs</h5>
+                  <p class="card-text">O suplemento BCA (Branched-Chain Amino Acids) é composto por três aminoácidos essenciais: leucina, isoleucina e valina</p><br>
+                  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-bca">Saber mais</a>
+                </div>
+            </article>
+            </div>
+          </section>  
+        </main>
+        <footer>
+
+        </footer> 
+        
+        <!--modal-->
+        <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <dialog class="modal-content">
+              <header class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Entre em Contato</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </header>
+              <main class="modal-body">
+                <div class="form-group">
+                  <label for="form-groupExampleinput">Nome Completo</label>
+                  <input type="text" class="form-control" id="form-groupExampleinput" placeholder="Digite seu nome">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput2" class="form-label">Endereço de E-mail</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Deixe seu comentario :</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </main>
+              <footer class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <button  type="button" class="btn btn-primary">Enviar</button>
+              </footer>
+            </dialog>
+          </div>
+        </div> 
+        <!--modal 2-->
+        <div class="modal" tabindex="-1" id="modal-creatina">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Creatina</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>A creatina é um composto de aminoácidos encontrado naturalmente nos músculos e cérebro. Como suplemento alimentar, ela é utilizada por atletas e fisiculturistas para aumentar a força muscular, o desempenho e a recuperação após o exercício físico intenso. A creatina é considerada segura para a maioria das pessoas quando usada em doses recomendadas e pode oferecer benefícios para a saúde além do desempenho físico, como a melhora da função cognitiva em idosos e indivíduos com lesões cerebrais. No entanto, é importante consultar um profissional de saúde antes de iniciar o uso de qualquer suplemento, incluindo a creatina.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal 3-->
+        <div class="modal" tabindex="-1" id="modal-glutamina">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Glutamina</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>A glutamina é um aminoácido produzido pelo organismo e encontrado em alimentos ricos em proteínas. Ela é conhecida por ser um dos principais nutrientes utilizados pelas células intestinais e do sistema imunológico, além de ser essencial para a síntese de proteínas e a reparação muscular. Como suplemento alimentar, a glutamina é utilizada por atletas e pessoas que praticam exercícios intensos para melhorar a recuperação muscular, reduzir a fadiga e fortalecer o sistema imunológico. Embora seja considerada segura em doses recomendadas, o uso prolongado de altas doses pode levar a efeitos colaterais como diarreia e distensão abdominal. É sempre importante consultar um profissional de saúde antes de iniciar o uso de qualquer suplemento, incluindo a glutamina.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--Modal 4-->
+         <div class="modal" tabindex="-1" id="modal-whey">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Whey protein</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>A whey protein é um suplemento alimentar derivado do soro do leite, que é uma fonte rica em proteínas. Ela é popular entre atletas e entusiastas fitness devido à sua capacidade de aumentar a síntese de proteínas musculares, melhorar o desempenho e acelerar a recuperação após o exercício físico intenso. A whey protein é rica em aminoácidos essenciais e pode ser facilmente digerida e absorvida pelo organismo. Existem três tipos principais de whey protein: concentrada, isolada e hidrolisada, cada uma com diferentes concentrações de proteínas e níveis de pureza. Embora seja considerada segura para a maioria das pessoas, é importante consultar um profissional de saúde antes de iniciar o uso de qualquer suplemento, incluindo a whey protein.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal 5-->
+        <div class="modal" tabindex="-1" id="modal-massa">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Massa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>O suplemento de massa é uma mistura de nutrientes, geralmente proteínas e carboidratos, usada para aumentar a ingestão calórica e de nutrientes em indivíduos que desejam ganhar peso e massa muscular. Ele é frequentemente utilizado por atletas e fisiculturistas que desejam aumentar a massa muscular rapidamente, e também pode ser usado por pessoas que têm dificuldade em ganhar peso. Os suplementos de massa estão disponíveis em diferentes formas, incluindo pós, barras e shakes, e geralmente contêm uma mistura de proteínas de alta qualidade, carboidratos complexos e gorduras saudáveis. É importante lembrar que o consumo excessivo de calorias pode levar ao ganho de peso e gordura corporal indesejados, e é sempre recomendado buscar orientação profissional antes de iniciar o uso de qualquer suplemento alimentar, incluindo o suplemento de massa.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <!--Modal 6-->
+        <div class="modal" tabindex="-1" id="modal-malto">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Malto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Malto é um suplemento alimentar feito de maltodextrina, um carboidrato complexo derivado do amido de milho. Ele é frequentemente utilizado por atletas e pessoas que praticam atividades físicas intensas como uma fonte de energia rápida e de longa duração. A maltodextrina é rapidamente absorvida pelo organismo e ajuda a fornecer energia durante o exercício físico, retardando a fadiga muscular e melhorando o desempenho. O malto é geralmente consumido na forma de pó e pode ser adicionado a bebidas ou alimentos para aumentar a ingestão calórica e de carboidratos. Embora seja considerado seguro para a maioria das pessoas, o uso excessivo de malto pode levar ao ganho de peso e aumento dos níveis de açúcar no sangue, e é importante consultar um profissional de saúde antes de iniciar o uso de qualquer suplemento, incluindo o malto.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--Modal 7 -->
+         <div class="modal" tabindex="-1" id="modal-bca">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">BCAAs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Os suplementos de BCAAs (aminoácidos de cadeia ramificada) são compostos por três aminoácidos essenciais: leucina, isoleucina e valina. Eles são amplamente utilizados por atletas e praticantes de atividades físicas para aumentar o desempenho, a resistência muscular e acelerar a recuperação após o exercício. Os BCAAs também podem ajudar a prevenir a fadiga muscular e a reduzir o dano muscular causado pelo exercício intenso. Além disso, alguns estudos mostraram que os BCAAs podem melhorar a síntese de proteínas musculares e auxiliar na perda de peso e na recuperação de lesões musculares. No entanto, é importante lembrar que o consumo excessivo de BCAAs pode levar a efeitos colaterais, como desidratação e desequilíbrio de eletrólitos, e é sempre recomendado buscar orientação profissional antes de iniciar o uso de qualquer suplemento alimentar, incluindo os BCAAs.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>       
+                
+    </body>
+          
+</html>
+    
+    
+    
+        
+      
+    
+        
+              
+            
+          
+           
+            
+            
+            
+            
